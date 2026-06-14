@@ -1,10 +1,14 @@
-import logo from "./logo.svg";
+import Bouquet from "./components/Bouquet";
+import WhiteRosesBouquet from "./components/WhiteRosesBouquet";
 import "./App.css";
+import BirthdayCard from "./components/BirthdayCard";
 
 function App() {
   return (
-    <div className="min-h-screen bg-pink-100 flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-pink-600">Happy Birthday ❤️</h1>
+    <div className="min-h-screen bg-gradient-to-b from-pink-100 via-purple-100 to-pink-200 flex flex-col items-center justify-center">
+      {/* <Bouquet /> */}
+      {/* <WhiteRosesBouquet /> */}
+      <BirthdayCard />
     </div>
   );
 }
